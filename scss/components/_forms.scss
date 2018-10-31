@@ -1,0 +1,16 @@
+.search-box__input {
+	margin: 2rem;
+}
+
+.input-search{
+	display: block;
+	margin: 0 auto;
+	border: solid 1px #9e9e9e;
+	border-radius: 5px;
+	padding: 0.5rem 1rem;
+	font-size: 18px;
+	width: 80%;
+	@include desktop_view {
+		width: 50%;
+	}
+}
